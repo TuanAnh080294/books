@@ -133,5 +133,105 @@ header .col-md-7 button {
 
 .section-1 .panel h1 {
     font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
 
+.section-1 .panel p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+}
+
+/* section-2 */
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url(../assets/shutterstock_1068141515.jpg);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content > p {
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+    color: #E5E5E5;
+}
+
+.numbers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -15vmin;
+}
+
+.rect {
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    border-radius: 0.5em;
+    margin: 1rem;
+    padding-top: 3.5vmin;
+    box-shadow: 1px 2px 50px rgba(255, 0, 0, 0.3);
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: tomato;
+}
+
+.number .rect p {
+    font-family: var(--Patua);
+}
+
+.purchase h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+}
+
+.purchase > p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.card .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing {
+    
 }
